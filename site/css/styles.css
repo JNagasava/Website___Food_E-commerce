@@ -4,16 +4,47 @@ body {
     text-align: center;
 }
 
-#topo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+header {
     background-color: orange;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
 
-.presentation > ul{
+#topo {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#top-image {
+    margin-left: 0;
+    background-color: pink;
+}
+
+.form-area {
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+#search-txtfd {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+#search-btn {
+    padding: 10px 25px;
+}
+
+#entrar-link {
+    background-color: blue;
+    margin-left: 10%;
+    margin-right: 0;
+}
+
+.presentation > ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -23,7 +54,7 @@ body {
     text-align: start;
 }
 
-.categories > ul{
+.categories > ul {
     list-style: none;
     text-align: center;
     display: flex;
@@ -40,16 +71,13 @@ body {
     justify-content: space-around;
 }
 
-footer {
-    background-color: black;
-}
-
 #rodape {
     position: absolute;
     bottom:0;
     width:100%;
     display: block;
     width: 100%;
+    background-color: black;
     color: white;
     margin-bottom: 0;
     padding-top: 10px;
