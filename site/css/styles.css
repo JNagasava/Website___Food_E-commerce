@@ -54,7 +54,7 @@ header {
 }
 
 .categories > h4 {
-    text-align: start;
+    text-align: center;
 }
 
 .categories > ul {
@@ -65,7 +65,7 @@ header {
 }
 
 .relevant > h4 {
-    text-align: start;
+    text-align: center;
 }
 
 .relevant > ul{
@@ -76,9 +76,8 @@ header {
 
 #rodape {
     position: absolute;
-    bottom:0;
+    bottom: 0;
     width:100%;
-    display: block;
     width: 100%;
     background-color: black;
     color: white;
