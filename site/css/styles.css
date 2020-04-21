@@ -18,30 +18,33 @@ header {
 
 #top-image {
     margin-left: 0;
-    background-color: pink;
 }
 
 .form-area {
     margin-left: 10%;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #search-txtfd {
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 90px;
+    padding-right: 10px;
     text-align: center;
     font-size: 12pt;
 }
 
 #search-btn {
     padding: 10px 25px;
+    margin-right: auto;
+    font-weight: bold;
 }
 
 #entrar-link {
-    background-color: blue;
-    margin-left: 10%;
     margin-right: 0;
+    margin-left: 10%;
+    font-size: 20px;
 }
 
 .presentation > ul {
