@@ -86,7 +86,7 @@ header {
     list-style: none;
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .relevant > h4 {
