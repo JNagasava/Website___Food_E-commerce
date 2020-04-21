@@ -47,23 +47,6 @@ header {
     margin: auto;
 }
 
-#search-txtfd {
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-right: 130px;
-    text-align: center;
-    font-size: 12pt;
-}
-
-#search-btn {
-    padding: 10px 25px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 25px;
-    background-color: black;
-    border-color: white;
-}
-
 #entrar-link {
     margin: auto;
     font-size: 30px;
@@ -185,4 +168,43 @@ a:visited {
 figcaption {
     display: block;
     padding-top: 5px;
+}
+
+.search-box-wrapper {
+    display: inline-flex;
+    font-size: 20px;
+}
+
+.search-box-input {
+    margin-top: 12px;
+    font-size: inherit;
+    border: 0.2em solid white;
+    border-radius: 0.5em 0 0 0.5em;
+    padding: 0.2em 0.5em;
+    outline: 0;
+}
+
+.search-box-input:hover,
+.search-box-input:focus {
+    border-color: white;
+}
+
+.search-box-button {
+    margin-top: 12px;
+    font-size: inherit;
+    border: 0.2em solid white;
+    border-radius: 0 0.5em 0.5em 0;
+    background-color: white;
+    border-left: 0;
+    padding: 0 0.75em;
+    color: white;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+}
+
+.search-box-button:hover,
+.search-box-button:focus {
+    border-color: white;
+    background-color: white;
 }
