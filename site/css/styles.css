@@ -57,9 +57,11 @@ header {
 
 #search-btn {
     padding: 10px 25px;
-    font-weight: bold;
-    border-radius: 20%;
-    border-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 25px;
+    background-color: black;
+    border-color: white;
 }
 
 #entrar-link {
