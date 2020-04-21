@@ -1,0 +1,68 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: orange;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.presentation > ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.categories > h4 {
+    text-align: start;
+}
+
+.categories > ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.relevant > h4 {
+    text-align: start;
+}
+
+.relevant > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: black;
+}
+
+#rodape {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    display: block;
+    width: 100%;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#copyright {
+    text-align: center;
+    margin-bottom: 0;
+}
