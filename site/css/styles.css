@@ -10,14 +10,36 @@ header {
 
 #topo {
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-#top-image {
-    margin-left: 0;
+.logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo_container > h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 200;
+    transition: .5s;
+}
+
+.logo_container > h1:hover {
+    font-size: 50px;
+    transition: .5s;
+}
+
+.logo_container > h1 > span {
+    font-weight: 800;
 }
 
 .form-area {
@@ -44,7 +66,12 @@ header {
 #entrar-link {
     margin-right: 0;
     margin-left: 10%;
-    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: black;
 }
 
 .presentation > ul {
