@@ -9,6 +9,10 @@ header {
     background-color: orange;
 }
 
+img {
+    border-radius: 15px;
+}
+
 #topo {
     display: flex;
     padding-top: 40px;
