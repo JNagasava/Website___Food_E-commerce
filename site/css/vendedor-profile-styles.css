@@ -7,11 +7,12 @@ body {
 
 header {
     background-color: orange;
-    
+
 }
 
-img {
-    border-radius: 15px;
+.img_comida{
+    width: 300px; 
+    height: 200px;
 }
 
 #topo {
