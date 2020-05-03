@@ -1,0 +1,51 @@
+#main {
+    margin-bottom: auto 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#titulo {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 3% auto;
+}
+
+.vendedores-list_container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    justify-content: center;
+    justify-items: center;
+}
+
+.vendedores-card {
+    border-color: black;
+    border-width: 10em;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    background-color: red;
+}
+
+.vendedores-img {
+    flex: 1;
+    padding: 50px;
+    /* background-color: blue; */
+}
+
+.vendedores-content {
+    font-weight: 10px;
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto 3%;
+}
+
+.vendedores-nome {
+    font-weight: bold;
+}
+
