@@ -3,14 +3,145 @@
     padding: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #titulo {
-    font-size: 40px;
+    font-size: 64px;
     font-weight: bold;
-    margin: 3% auto;
+    margin: 2% auto;
 }
 
+/* ==================================================== */
+
+/* AREA DE PESQUISA */
+
+.vendedores-search_area {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-gap: 10px;
+    justify-content: space-around;
+    margin: auto 3%;
+    margin-bottom: 50px;
+}
+
+/* FILTROS DE PESQUISA */
+
+.filtro_area-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#filtro-text {
+    font-size: 20pt;
+}
+
+/* Comida */
+.comida-menu_button {
+    font-size: 24pt;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 25px;
+    background-color: gray;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.comida-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.comida-dropdown_menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.comida-dropdown_menu span:hover {
+    border-radius: 25px;
+    transition: .5s;
+    background-color: red;
+}
+
+.comida-wrapper:hover .comida-dropdown_menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: center;
+}
+
+.comida-wrapper:hover .comida-menu_button{
+    background-color: transparent;
+}
+
+/* Distância */
+.distancia-button {
+    font-size: 24pt;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 25px;
+    background-color: gray;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.distancia-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.distancia-dropdown_range_slider {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.distancia-wrapper:hover .distancia-dropdown_range_slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.distancia-wrapper:hover .distancia-button{
+    background-color: transparent;
+}
+
+/* ORDENARCAO */
+.ordenar_area-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ordenar-text {
+    font-size: 20pt;
+}
+
+.ordenar-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24pt;
+}
+
+input[type=radio] {
+    align-self: center;
+    width: 2em;
+    height: 2em;
+}
+
+/* ====================================================================== */
+
+/* LISTA DE VENDEDORES */
 .vendedores-list_container {
     display: grid;
     grid-gap: 30px;
@@ -25,15 +156,22 @@
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 600px;
     width: 300px;
-    background-color: red;
+    background-color: rgb(236, 231, 231);
+    justify-content: space-around;
 }
 
 .vendedores-img {
     flex: 1;
-    padding: 50px;
-    /* background-color: blue; */
+    background-color: rgb(121, 121, 138);
+    margin: 10px 10px;
+    border-radius: 25px;
+}
+
+.vendedores-img > img{
+    height: 200px;
+    width: 260px;
 }
 
 .vendedores-content {
@@ -47,5 +185,20 @@
 
 .vendedores-nome {
     font-weight: bold;
+}
+
+/* ====================================================== */
+
+/* Carregar mais vendedores */
+.vendedores-load_btn {
+    margin-top: 30px;
+    font-size: 16px;
+    border-style: none;
+    background-color: transparent;
+}
+
+.vendedores-load_btn:hover {
+    color: red;
+    text-decoration: underline;
 }
 
