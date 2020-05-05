@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HotFood</title>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/vendedor-profile-styles.css">
+		<meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+        </style>
+        <body class="w3-light-grey" style="max-width:1600px">
+	</head>
+	<body>
+		<header>
+			<div id="topo">
+				<a href="index.html"><img src="img/prototype3.png" width="75" height="125"></a>
+				<div class="logo_container">
+					<a href="index.html"><h1>Hot</a><span><a href="index.html">Food</a></span></h1>
+				</div>
+				<div class="form-area">
+					<form id="search">
+						<div class="search-box-wrapper">
+							<input type="text" name="submit" placeholder="Tá com fome de que?" class="search-box-input">
+							<button class="search-box-button" type="submit" name="submit"> &#128269;</button>
+						</div>
+					</form>
+				</div>
+				<a id="entrar-link" href="website.com/login">Entrar</a>
+			</div>
+        </header>
+
+        <div class="flex-container">
+            <div class="w3-collapse w3-white w3-animate-left" style="z-index:3;width:50%;" id="mySidebar"><br>
+                <div class="w3-container">
+                <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+                    <i class="fa fa-remove"></i>
+                </a>
+                <img src="img/monaco.jfif" style="width:100%;" class="w3-round"><br><br>
+                <h3><b>Comida da Nonna</b></h3>
+                <p class="w3-text-grey">A cada mordida uma nova experiência!</p>
+                </div>
+                <div class="w3-bar-block">
+                <a href="#cardapio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>CARDÁPIO</a> 
+                <a href="#sobre" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>SOBRE</a> 
+                <a href="#contato" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTATO</a>
+                </div>
+                <div class="w3-panel w3-large">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+                </div>
+            </div>
+            
+
+            <div class="w3-main" style="margin-left: 2%;">
+                <section id="portfolio">
+                    <div class="w3-container">
+                        <form>
+                            <input type="button" value="&#8678;" onclick="history.back()" style="float: right; width: 75px; height: 75px; font-size: x-large;">
+                        </form>
+                        <form>
+                            <input type="button" value="&#9668;" onclick="history.back()" style="float: right; width: 75px; height: 75px; font-size: x-large;">
+                        </form>
+                        <form>
+                            <input type="button" value="🡨" onclick="history.back()" style="float: right; width: 75px; height: 75px; font-size: x-large;">
+                        </form>
+                        <form>
+                            <input type="button" value="🡰" onclick="history.back()" style="float: right; width: 75px; height: 75px; font-size: x-large;">
+                        </form>
+                        <form>
+                            <input type="button" value="⮘" onclick="history.back()" style="float: right; width: 75px; height: 75px; font-size: x-large;">
+                        </form>
+                        <form>
+                            <input type="button" value="⮜" onclick="history.back()" style="float: right; width: 75px; height: 75px; font-size: x-large;">
+                        </form>
+                        <h1><b>Cardápio</b></h1>
+                    </div>
+                </section>
+
+                <!-- First Photo Grid-->
+                <div class="w3-row-padding">
+                    <div class="w3-third w3-container w3-margin-bottom">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-brasileira.webp" alt="Comida Brasileira" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                    <div class="w3-third w3-container w3-margin-bottom">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-japonesa.jpg" alt="Comida Japonesa" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                    <div class="w3-third w3-container">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-chinesa.jpg" alt="Commida Chinesa" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Second Photo Grid-->
+                <div class="w3-row-padding">
+                    <div class="w3-third w3-container w3-margin-bottom">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-lanches.jpeg" alt="Lanche" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                    <div class="w3-third w3-container w3-margin-bottom">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-pizza.jpeg" alt="Pizza" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                    <div class="w3-third w3-container">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-arabe.webp" alt="Comida Árabe" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                </div>
+                <!-- First Photo Grid-->
+                <div class="w3-row-padding">
+                    <div class="w3-third w3-container w3-margin-bottom">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-brasileira.webp" alt="Comida Brasileira" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                    <div class="w3-third w3-container w3-margin-bottom">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-japonesa.jpg" alt="Comida Japonesa" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                    <div class="w3-third w3-container">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-chinesa.jpg" alt="Commida Chinesa" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                </div>
+                
+                <!-- Second Photo Grid-->
+                <div class="w3-row-padding">
+                    <div class="w3-third w3-container w3-margin-bottom">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-lanches.jpeg" alt="Lanche" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                    <div class="w3-third w3-container w3-margin-bottom">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-pizza.jpeg" alt="Pizza" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                    <div class="w3-third w3-container">
+                    <img class="img_comida w3-hover-opacity" src="img/comida-arabe.webp" alt="Comida Árabe" style="width:100%" >
+                    <div class="w3-container w3-white">
+                        <p><b>Lorem Ipsum</b></p>
+                        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+			<ul class="social">
+				<li>Fale Conosco</li>
+				<li>Como pedir</li>
+				<li>Perguntas Frequentes</li>
+				<li>Cadastre seu restaurante</li>
+			</ul>
+			<ul class="social-icons">
+				<i><img height="55" width="55" src="img/twitter-64.png"></i>
+				<i><img height="55" width="55" src="img/instagram-64.png"></i>
+				<i><img height="55" width="55" src="img/facebook-3-64.png"></i>
+				<i><img height="55" width="55" src="img/youtube-64.png"></i>
+			</ul>
+			<p id="copyright"><img id="footer_icon" src="img/prototype3.png"> Copyright 2020 - HotFood</p>
+		</footer>
+	</body>
+</html>
