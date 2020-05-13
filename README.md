@@ -2,9 +2,9 @@
 HotFood é um projeto da disciplina Introdução ao Desenvolvimento Web (SSC0219), com a professora Kamila, em que foi feito um website de divulgação de comidas para pequenos e médios comerciantes.
 
 ## Membros
-João Ricardo Minoru Nagasava
-Gustavo Tuani Mastrobuono
-Victor Graciano de Souza Correia
+João Ricardo Minoru Nagasava [@JNagasava](https://github.com/JNagasava)        
+Gustavo Tuani Mastrobuono [@gumastro](https://github.com/gumastro)    
+Victor Graciano de Souza Correia [@victorgcorreia](https://github.com/victorgcorreia)     
 
 ## Motivação
 
